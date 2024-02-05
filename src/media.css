@@ -1,0 +1,99 @@
+@media (min-width:300px) {
+
+
+    .home_t .text-web-d {
+        font-size: 30px !important;
+    }
+
+    .home_t p {
+        max-width: 300px !important;
+        text-align: justify !important;
+    }
+
+}
+
+@media (max-width:576px) {
+    .home_t h1 {
+        font-size: 34px !important;
+    }
+
+    .home_t .text-web-d {
+        font-size: 34px !important;
+        text-align: center;
+    }
+
+    .home_t p {
+        max-width: 576px !important;
+        text-align: center !important;
+    }
+
+    .box p::before {
+        display: none;
+    }
+
+    .box p {
+        font-size: 15px !important;
+    }
+
+    .box {
+        padding: 10px;
+    }
+
+    .About_Page .l_sec ul li span {
+        display: flex;
+    }
+
+    .col-lg-6 h3 {
+        font-size: 24px !important;
+        padding: 10px;
+    }
+
+    .hr {
+        max-width: 260px;
+        height: 1px;
+        margin: auto;
+        background-color: #393737;
+    }
+
+    .icon_edu::before {
+        height: 160px;
+    }
+
+
+}
+
+@media (max-width:991px) {
+    .home_t p {
+        max-width: 576px !important;
+        text-align: center !important;
+    }
+
+}
+
+@media screen and (min-device-width: 991px) and (max-device-width: 1199px) {
+
+    .home_text p {
+        /* max-width: 485x !important; */
+        font-size: 15px !important;
+    }
+
+    .About_Page .l_sec ul li span {
+        display: flex;
+    }
+
+    .items p {
+        max-width: 350px !important;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width:1400px) {
+
+    .home_text p {
+        max-width: 612px !important;
+        font-size: 15px !important;
+    }
+
+}
